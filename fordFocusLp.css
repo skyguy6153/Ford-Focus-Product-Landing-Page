@@ -1,0 +1,97 @@
+#header-img {
+    width: 200px;
+    height: auto;
+    position: relative;
+    right: 2rem;
+    left: 2rem;
+    bottom: 2rem;
+    float: right;
+    padding: 20px;
+  
+  z-index: 1; 
+  }
+  
+  body {
+    background-color: rgb(248, 249, 250);
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 10px;
+    top: 0;
+    position: relative;
+    z-index: 3;
+    background-color: dddddd;
+  }
+  
+  #nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    z-index: 100; /* Adjust the z-index as needed */
+    
+    }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    width: 100%; 
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    padding: 10px;
+    background-color: #11215C;
+     
+  }
+  /* Change the link color to #111 (black) on hover */
+  ul a:hover {
+    background-color: black;
+  }
+  
+  #nav-bar ul {
+    display: flex;
+    justify-content: space-around; /* Distribute items evenly */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    width: 100%;
+  }
+  
+  #nav-bar ul li {
+    flex: 1; /* Equal distribution of items */
+  }
+  
+  
+  /* set navbar text to white, add 1s color transition, remove unerline, center text*/
+  #nav-bar ul li a {
+    color: white; 
+    transition: background-color 1s ease;
+    display: block;
+  padding: 10px;
+  text-align: center; /* Center the text within each list item */
+  text-decoration: none;
+  }
+  
+  .focus-ov-photo {
+    width: 50%;
+    height: auto;
+  }
