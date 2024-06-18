@@ -1,2 +1,2 @@
 # Ford-Focus-Product-Landing-Page
-A product landing page for the different models of the Mark 3 Ford Focus, from years 2012-2017.
+### This is intended to showcase the different variations of the Mark 3 Ford Focus, from 2012 through 2018. 
