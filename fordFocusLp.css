@@ -90,6 +90,11 @@
   text-align: center; /* Center the text within each list item */
   text-decoration: none;
   }
+
+  #s-list {
+    padding-top: 25px;
+    position: relative;
+  }
   
   .focus-ov-photo {
     width: 50%;
